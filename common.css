@@ -1,0 +1,133 @@
+/*---------- custom style-------*/
+
+.main-container {
+	margin: 0 auto;
+	padding: 30px 0;
+	width: 960px;
+	background: #1f2937;
+}
+
+body {
+        /*background: #1f2937;*/
+        color: white;
+        font: 300 16px/22px "roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/*---------- header ------------*/
+
+.primary-header {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+.navigation {
+	display: flex;
+	justify-content: center;
+}
+
+.button{
+        color: #1f2937;
+	font-size: 18px;
+	background-color: white;
+	border: none;
+	text-align: center;
+	width: 100px;
+	height: 30px;
+}
+
+.primary-header .button:hover {
+        background-color: #1f2937;
+	color: white;
+}
+
+.logo {
+	flex-basis: 100%;
+	font-size: 44px;
+	line-height: 48px;
+	float: left;
+	height: 90px;
+}
+
+/*------------ body part 1 --------*/
+
+.body {
+	display: flex;
+	justify-content: center;
+	margin: 80px 0 50px 0;
+	font-size: 30px;
+}
+
+.subtext {
+	font-size: 15px;
+}
+
+.first {
+	margin-right: 40px;
+}
+
+.main-image img {
+	width: 100%; 
+	height: auto;
+	justify-content: center;
+	border: none;
+	border-radius: 5px;
+}
+
+.signup {
+	background-color: #3882f6;
+	border: none;
+	border-radius: 4px;
+        color: white;
+}
+
+/*------------ body part 2 --------*/
+
+.illustration {
+        display: flex;
+        justify-content: center;
+	height: 200px;
+	background-color: white;
+}
+
+.some-info {
+	margin-top: 30px;
+	font-size: 20px;
+	padding: 30px;
+	background-color: white;
+}
+
+.a, .b, .c, .d, .some-info {
+	text-align: center;
+	color: black;
+}
+
+img {
+	border: 3px solid #3882f6;
+	border-radius: 4px;
+	width: 80%;
+	height: auto;
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+
+/*---------- body part 3 --------*/
+
+
+/* ----------- footer ----------*/
+
+.primary-footer small {
+        float: left;
+        font-weight: 400;
+	text-align: center;
+}
+
+.primary-footer {
+        color: #648880;
+        font size: 14px;
+        padding-bottom: 44px;
+        padding-top: 44px;
+	position: fixed;
+	bottom: 0;
+}
+
