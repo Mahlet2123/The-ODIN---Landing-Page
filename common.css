@@ -1,10 +1,11 @@
 /*---------- custom style-------*/
 
-.main-container {
+.container {
 	margin: 0 auto;
 	padding: 30px 0;
 	width: 960px;
 	background: #1f2937;
+	/*background-color: white;*/
 }
 
 body {
@@ -68,7 +69,7 @@ body {
 
 .main-image img {
 	width: 100%; 
-	height: auto;
+	height: auto;BOB
 	justify-content: center;
 	border: none;
 	border-radius: 5px;
@@ -95,6 +96,7 @@ body {
 	font-size: 20px;
 	padding: 30px;
 	background-color: white;
+	color: #1f2937;
 }
 
 .a, .b, .c, .d, .some-info {
@@ -113,21 +115,58 @@ img {
 
 /*---------- body part 3 --------*/
 
+.row {
+        background: white;
+        width: 960px;
+}
 
-/* ----------- footer ----------*/
+.qoute {
+	background-color: #e5e7eb;
+	box-sizing: padding-box;
+	margin: 50px 0;
+	padding: 30px 100px;
+	font-family: "Bradley Hand ITC", Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-size: 30px;
+	line-height: 40px;
+	color: #1f2937;
+	margin-top: 0;
+}
 
-.primary-footer small {
-        float: left;
-        font-weight: 400;
+.qoute h3{
 	text-align: center;
 }
 
+.qoute h6 {
+	text-align: right;
+}
+
+.last {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px 100px;
+	margin: 30px;
+	background-color: #3882f6;
+	border: none;
+	border-radius: 4px;
+	margin-top: 100px;
+}
+
+.down {
+	border: 1px solid black;
+}
+
+/* ----------- footer ----------*/
+
 .primary-footer {
+	background-color: #1f2937;
         color: #648880;
-        font size: 14px;
-        padding-bottom: 44px;
-        padding-top: 44px;
+        font size: 12px;
 	position: fixed;
-	bottom: 0;
+	bottom: 0; 
+	height: 20px; 
+	width: 100%; 
+	text-align: center; 
+	line-height: 20px;
 }
 
